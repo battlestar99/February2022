@@ -1,0 +1,27 @@
+package packageTwo;
+
+public class LearningFunctions {
+
+	public static void main(String[] args) {
+		LearningFunctions learning = new LearningFunctions();
+		learning.addTwoNumbers();
+		learning.addTwoNumbers();
+		learning.addTwoNumbers();
+	}
+	
+	public void addTwoNumbers() {
+		int g = 50;
+		int h = 60;
+		int i = g + h;
+		System.out.println(i);
+	}
+	
+	public void addThreeNumbers() {
+		int g = 50;
+		int h = 60;
+		int a = 10;
+		int i = g + h + a;
+		System.out.println(i);
+	}
+
+}

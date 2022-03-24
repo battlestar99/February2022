@@ -1,0 +1,26 @@
+package packageOne;
+
+public class ConditionalStatement {
+
+	public static void main(String[] args) {
+		
+		String light = "purple";
+		
+		if(light == "red") {
+			System.out.println("stop!!");
+		}
+		
+		if(light == "green") {
+			System.out.println("Go!!");
+		}
+		
+		if(light == "yellow") {
+			System.out.println("slow down!!");
+		}else {
+			System.out.println("stop and go");
+		}
+		
+	
+	}
+
+}

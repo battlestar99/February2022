@@ -1,0 +1,52 @@
+package packageOne;
+
+public class ConditionalStatement {
+
+	public static void main(String[] args) {
+		
+//		String light = "white";
+//		
+//		if(light == "red") {
+//			System.out.println("stop!!");
+//		}else if(light == "green") {
+//			System.out.println("Go!!");
+//		}else if(light == "yellow") {
+//			System.out.println("slow down!!");
+//		}else {
+//			System.out.println("stop and go");
+//		}
+		
+		
+//		int grade = 95;
+//		
+//		if(grade >= 90) {
+//			System.out.println("A");
+//		}else if(grade >= 80) {
+//			System.out.println("B");
+//		}else if(grade >= 70) {
+//			System.out.println("C");
+//		}else {
+//			System.out.println("Fail");
+//		}
+		
+		
+		
+		int a = 10;
+		
+		if(a > 5){
+			System.out.println("a is greater than 5");
+		}
+		
+		if(a > 0) {
+			System.out.println("a is greater than 0");
+		}
+		
+		
+		
+		
+		
+		
+	
+	}
+
+}

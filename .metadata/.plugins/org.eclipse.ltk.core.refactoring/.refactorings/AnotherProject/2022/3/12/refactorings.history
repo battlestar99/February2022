@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;packageTwo.SampleClassTwo&apos; to &apos;DataType&apos;&#x0D;&#x0A;- Original project: &apos;AnotherProject&apos;&#x0D;&#x0A;- Original element: &apos;packageTwo.SampleClassTwo&apos;&#x0D;&#x0A;- Renamed element: &apos;packageTwo.DataType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SampleClassTwo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;packageTwo{SampleClassTwo.java[SampleClassTwo" matchStrategy="1" name="DataType" qualified="false" references="true" similarDeclarations="false" stamp="1647473470721" textual="false" version="1.0"/>
+</session>

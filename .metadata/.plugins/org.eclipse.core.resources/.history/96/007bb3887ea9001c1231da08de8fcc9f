@@ -1,0 +1,16 @@
+package packageTwo;
+
+public class LearningFunctions {
+
+	public static void main(String[] args) {
+		LearningFunctions learning = new LearningFunctions();
+		learning.addTwoNumbers(10, 30);
+		learning.addTwoNumbers(90, 60);
+	}
+	
+	public void addTwoNumbers(int numberOne, int numberTwo) {
+		int result = numberOne + numberTwo;
+		System.out.println(result);
+	}
+
+}

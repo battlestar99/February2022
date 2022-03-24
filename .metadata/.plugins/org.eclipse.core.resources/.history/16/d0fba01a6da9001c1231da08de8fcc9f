@@ -1,0 +1,21 @@
+package packageTwo;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int numOne = 10;
+		
+		int numTwo;
+		numTwo = 20;
+		
+		
+		int[] numberOne = {10, 20, 30};
+		
+		System.out.println(numberOne[2]);
+		
+		int[] numberTwo = new int[3];
+//		numberTwo[] = 10;
+		
+	}
+
+}
