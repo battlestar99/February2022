@@ -1,0 +1,13 @@
+package packageTwo;
+
+public class LoopAndArray {
+
+	public static void main(String[] args) {
+		int[] numberOne = {10, 25};
+
+		for(int i=0; i<2; i++) {
+			System.out.println(numberOne[i]);
+		}
+	}
+
+}

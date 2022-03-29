@@ -1,0 +1,21 @@
+package function;
+
+public class FunctionLearning {
+
+	public static void main(String[] args) {
+
+		FunctionLearning fl = new FunctionLearning();
+		fl.addTwoNumbers();
+		fl.addTwoNumbers();
+		
+	}
+	
+	public void addTwoNumbers() {
+		int a = 10; 
+		int b = 20;
+		int c = a + b;
+		System.out.println(c);
+	}
+	
+
+}
