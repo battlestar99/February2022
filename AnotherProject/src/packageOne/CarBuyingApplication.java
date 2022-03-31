@@ -8,11 +8,15 @@ public class CarBuyingApplication {
 		double tax = 0.1; // 10/100 = 0.1
 		double adminFee = 1000;
 		double downPayment = 3000;
-		double creditScore = 750;
+		double creditScore = 650;
 		double apr = 0.05;
 		
-		if(creditScore >= 700) {
-			apr = 0.05;
+		if(creditScore >= 760) {
+			apr = 0.02;
+		}else if (creditScore >= 700 && creditScore <760) {
+			apr = 0.03;
+		}else if (creditScore>= 650 && creditScore <= 699) {
+			apr = 0.04;
 		}
 		
 		double months = 72;
@@ -26,14 +30,14 @@ public class CarBuyingApplication {
 		double afterDownPayment = hf.afterDownPayment(totalCarPrice, downPayment);
 		System.out.println(afterDownPayment);
 		
-//		double priceWithApr = afterDownPayment * apr;
-//		System.out.println(priceWithApr);
-//		
-//		double finalCarPrice = afterDownPayment + priceWithApr;
-//		System.out.println(finalCarPrice);
-//		
-//		double monthlyPayment = finalCarPrice/months;
-//		System.out.println(monthlyPayment);
+		double priceWithApr = hf.calculatePriceWithApr(afterDownPayment, apr);
+		System.out.println(priceWithApr);
+		
+		double finalCarPrice = hf.calculateFinalPrice(afterDownPayment, priceWithApr);
+		System.out.println(finalCarPrice);
+		
+		double monthlyPayment = hf.calculateMonthlyPayment(finalCarPrice, months);
+		System.out.println(monthlyPayment);
 	}
 
 }

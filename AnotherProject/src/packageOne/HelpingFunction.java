@@ -16,4 +16,19 @@ public class HelpingFunction {
 		double result = totalCarPrice - downPayment;
 		return result;
 	}
+	
+	public double calculatePriceWithApr(double afterDownPayment, double apr) {
+		double result = afterDownPayment * apr;
+		return result;
+	}
+	
+	public double calculateFinalPrice(double afterDownPayment, double priceWithApr) {
+		double result = afterDownPayment + priceWithApr;
+		return result;
+	}
+	
+	public double calculateMonthlyPayment(double finalCarPrice, double months) {
+		double result = finalCarPrice/months;
+		return result;
+	}
 }
