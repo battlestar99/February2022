@@ -5,7 +5,9 @@ import packageTwo.AddingIntNumbers;
 public class MainClass {
 
 	public static void main(String[] var) {
-//		AddingIntNumbers mc = new AddingIntNumbers();
+		AddingIntNumbers mc = new AddingIntNumbers();
+		
+		
 		
 //		mc.addTwoNumbers(20, 50);
 //		mc.addTwoNumbers(60, 70);
