@@ -10,7 +10,7 @@ public class SeleniumLearning {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.com/");
+		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 		
 		Thread.sleep(2000);
@@ -31,18 +31,33 @@ public class SeleniumLearning {
 		//input[@type='submit']
 		
 		
-//		WebElement usernameTextbox = driver.findElement(By.xpath("html/body/div/div/div[2]/div/div/div/form/div/input"));
-//		usernameTextbox.sendKeys("standard_user");
-//		
-//		WebElement passwordTextbox = driver.findElement(By.xpath("html/body/div/div/div[2]/div/div/div/form/div[2]/input"));
-//		passwordTextbox.sendKeys("secret_sauce");
+		WebElement usernameTextbox = driver.findElement(By.xpath("//input[@id='user-name']"));
+		usernameTextbox.sendKeys("standard_user");
 		
-		WebElement signinButton = driver.findElement(By.xpath("//a[@id= 'nav-link-accountList']"));
+		WebElement passwordTextbox = driver.findElement(By.xpath("//input[@data-test='password']"));
+		passwordTextbox.sendKeys("secret_sauce");
+		
+		WebElement signinButton = driver.findElement(By.name("login-button"));
 		signinButton.click();
 		
-
+		String actualUrl = driver.getCurrentUrl();
 		
-		//absolute xpath
+		String expectedUrl = "https://www.saucedemo.com/inventory.html";
+		
+		System.out.println(actualUrl);
+		System.out.println(expectedUrl);
+		
+		// == - trying to match values with memory location
+		
+		if(actualUrl.equals(expectedUrl) ) {
+			System.out.println("test pass");
+		}else {
+			System.out.println("test fail");
+		}
+			
+			
+			
+			//absolute xpath
 		//relative xpath
 		
 		
