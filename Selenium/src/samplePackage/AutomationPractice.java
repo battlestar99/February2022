@@ -17,7 +17,7 @@ public class AutomationPractice {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
-//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		
 		WebElement loginButton = driver.findElement(By.className("login"));
@@ -31,6 +31,7 @@ public class AutomationPractice {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("id_gender1")));
+		
 		
 		WebElement titleGender = driver.findElement(By.id("id_gender1"));
 		titleGender.click();
