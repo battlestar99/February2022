@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression tests">
+
+<test name="Regression tests sprint 10.5">
+
+<classes>
+
+<class name="sauceDemoTests.chekcoutEndtoEnd"></class>
+<class name="sauceDemoTests.loginTest"></class>
+<class name="sauceDemoTests.loginTestV2"></class>
+
+
+</classes>
+</test>
+</suite>

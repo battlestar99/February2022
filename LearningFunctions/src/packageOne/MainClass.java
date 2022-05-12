@@ -9,7 +9,7 @@ public class MainClass {
 		
 		
 		
-//		mc.addTwoNumbers(20, 50);
+		mc.addTwoNumbers(10, 20);
 //		mc.addTwoNumbers(60, 70);
 //		int sum = mc.addTwoNumbers(20, 50);
 //		System.out.println(sum);

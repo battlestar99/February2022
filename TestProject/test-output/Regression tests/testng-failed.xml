@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression tests]">
+  <test name="Regression tests sprint 10.5(failed)">
+    <classes>
+      <class name="sauceDemoTests.loginTestV2">
+        <methods>
+          <include name="beforeEachTests"/>
+          <include name="testsetup"/>
+          <include name="endtest"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- sauceDemoTests.loginTestV2 -->
+      <class name="sauceDemoTests.loginTest">
+        <methods>
+          <include name="beforeEachTests"/>
+          <include name="testsetup"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- sauceDemoTests.loginTest -->
+      <class name="sauceDemoTests.chekcoutEndtoEnd">
+        <methods>
+          <include name="endtest"/>
+          <include name="testsetup"/>
+        </methods>
+      </class> <!-- sauceDemoTests.chekcoutEndtoEnd -->
+    </classes>
+  </test> <!-- Regression tests sprint 10.5(failed) -->
+</suite> <!-- Failed suite [Regression tests] -->

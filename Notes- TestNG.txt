@@ -1,0 +1,85 @@
+Java - programming language 
+
+Selenium - programming library - web based application - browser 
+
+Test case steps: 
+
+1. open the browser ( chrome) 
+2. navigating to the test url
+3. enter the email address
+4. click on the "create an account button"
+
+Expected result: user should be able to create new account
+actual result : user can not create new account
+
+
+TestNG: 
+
+1. you can organize test more effectively 
+2. generate reports 
+3. assertions - to compare expected and actual results 
+4. data driven testing 
+
+1. TestNG library - jar file 
+
+2. TestNG plugin for eclipse - 
+
+Why we need TestNG ? 
+
+organizing test 
+pass/fail scenario 
+result/report generation
+test suite - 
+data driven framework - 
+
+How to organize test using TestNG or Junit or any other framework? 
+
+Annotations and functions 
+
+@BeforeTest - pre requirment
+public void startTest(){
+
+// code goes here 
+
+}
+
+
+@Test - actual test steps
+
+public void mainTest(){
+
+// code goes here - actual test steps here
+
+}
+
+
+
+@AfterTest - post requirement 
+
+public void endTest(){
+
+// code goes here - whatever the post requirement of the test
+
+}
+
+BeforeTest
+Test - one test case
+Test - 
+AfterTest
+
+Test script - automated test case 
+
+In one test script - there can be multiple test cases 
+
+Assertion - comparing two values to see whether the test passes of fails 
+
+
+
+
+
+
+
+
+
+
+

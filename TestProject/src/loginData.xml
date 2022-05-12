@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Data Driven tests">
+
+<test name="Standard User Test">
+
+<parameter name="username" value="standard_user"/>
+<parameter name="password" value="secret_sauce"/>
+<parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+<classes>
+
+<class name="sauceDemoTests.loginDataTest"></class>
+
+</classes>
+
+</test>
+
+<test name="Locked Out user test">
+
+<parameter name="username" value="locked_out_user"/>
+<parameter name="password" value="secret_sauce"/>
+<parameter name="expectedUrl" value="https://www.saucedemo.com/"/>
+<classes>
+
+<class name="sauceDemoTests.loginDataTest"></class>
+
+</classes>
+
+</test>
+
+<test name="Problem user test">
+
+<parameter name="username" value="problem_user"/>
+<parameter name="password" value="secret_sauce"/>
+<parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+<classes>
+
+<class name="sauceDemoTests.loginDataTest"></class>
+
+</classes>
+
+</test>
+
+
+<test name="Performance glitch user test">
+
+<parameter name="username" value="performance_glitch_user"/>
+<parameter name="password" value="secret_sauce"/>
+<parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+<classes>
+
+<class name="sauceDemoTests.loginDataTest"></class>
+
+</classes>
+
+</test>
+
+
+<test name="Performance glitch user test 2">
+
+<parameter name="username" value="performance_glitch_user"/>
+<parameter name="password" value="secret_sauce"/>
+<parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+<classes>
+
+<class name="sauceDemoTests.loginDataTest"></class>
+
+</classes>
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

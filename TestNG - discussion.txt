@@ -1,0 +1,155 @@
+page object model - keep our webelements seperated from the test scripts 
+
+for each page - one page object model class 
+
+TestNG - 
+Testscipts - you can have any amount of test scripts - 10 test scripts 
+10 test scripts - 10 test cases ....50 tests 
+page object model - 
+
+Beforetest
+Test/s
+AfterTest
+user story: 1
+user should be able to login with valid credentials 
+
+
+user story 2: 
+user should not be able to login with invalid credentials 
+
+
+
+user story 3: 
+valid user should be able to add product to the cart 
+
+Testing framwork: 
+
+1. object driven - always implement page model 
+2. data driven - data should not be hardcoded in the test scripts - data 
+should come from a differeence source - XML , excel, database 
+
+TestNG >> 
+
+1. annotations - organization of tests using annotations - the sequence 
+beforetest, test, aftertest,  beforemethod, aftermetthod
+priority - sequence multiple test - if dont use - alphabetical order 
+
+2. 
+expected result - should be available before the test execution - requirement document - user story, BRD, srs 
+actual result - after execution of the tests 
+comparison of expected and actual result 
+
+Assertion functions - 
+
+3. generating test report - is done by testNG 
+
+4. test suite - smoke tests, regression test
+collection of test cases 
+
+5. creating data driven framework - seperating test data from test scripts 
+
+
+
+
+user story: valid user should be able to add products in the cart and buy
+by providing their information 
+ 
+
+Test suite + data driven framework - XML - 
+
+extensible markup language 
+
+anik@agile1tech.com 
+
+
+Testing framework : TestNG 
+
+why we need to use TestNG? 
+
+java: programming language 
+
+selenium: programming library - 
+storage of functions / methods - 
+
+interact with web-based application - browser 
+
+browser automation 
+
+Java - programming language 
+
+selenium - 
+
+class
+functions - interact with web based applcation 
+
+TestNG - testing library 
+
+1. organize code - annotations 
+2. creating a pass/fail - assertion 
+3. generating report - 
+4. test suite - xml 
+5. data driven framework - seperating the test scripts from test data 
+
+
+6. page object model 
+
+
+testing steps: 
+
+1. understanading requirement - user stories, use cases, brd - product 
+owner 
+how any module of the application - or functionality should work 
+
+req 1: user should be able to upload their resume with their profile
+req 2: user should be able to connect with companies through facebook 
+
+2. test case - manual test case
+test script - automation test script 
+
+3. executing test case or test scripts >> smoke, sanity testing, regression testing, UAT testing  
+
+4. analyzing the report - 100 tests - 5 failed 
+
+5. log the defects - monitor - close 
+
+
+
+update: 
+1. new functionalites
+2. modification of functionalites
+3. bug fixes 
+
+release : 15.4
+
+
+
+User story 1 : new user should be able to create account with their email address 
+
+user story 2: if the email is previously used to create another account user should get a msg and should not be able to create account with the same email 
+
+expected value: which value if I get I can tell the test pass of fails
+
+actual value : after running the test 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven tests]">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="username" value="standard_user"/>
+  <test name="Standard User Test(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="sauceDemoTests.loginDataTest">
+        <methods>
+          <include name="testsetup"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- sauceDemoTests.loginDataTest -->
+    </classes>
+  </test> <!-- Standard User Test(failed) -->
+</suite> <!-- Failed suite [Data Driven tests] -->
