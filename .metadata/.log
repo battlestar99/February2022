@@ -1955,3 +1955,1869 @@ org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connect
 
 !ENTRY org.testng.eclipse 4 0 2022-05-16 19:24:18.517
 !MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+!SESSION 2022-05-18 14:53:29.867 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_291
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-05-18 14:53:38.050
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.testng.eclipse 4 0 2022-05-18 14:53:44.071
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-18 14:53:45.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Agile1Tech'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2022-05-18 15:16:15.144
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2022-05-18 15:16:15.146
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-05-18 15:16:17.115
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+!SESSION 2022-05-18 18:42:00.294 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_291
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-05-18 18:42:08.141
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-18 18:42:15.431
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Agile1Tech'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2022-05-18 18:42:22.033
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.038
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.041
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.042
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.043
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.044
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.044
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.045
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.045
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.046
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.047
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.047
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.048
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.049
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.049
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:56:32.060
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:00.995
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:03.442
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:03.443
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:05.190
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:05.191
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:06.892
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:06.893
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:13.767
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:13.767
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 18:57:15.459
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2022-05-18 19:12:00.352
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2022-05-18 19:12:00.353
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-05-18 19:12:02.206
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:07.720
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:10.240
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:10.241
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:12.031
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:12.032
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:13.748
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:13.749
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:20.654
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:20.655
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:22.444
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:22.444
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:13:24.152
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:20.335
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:22.804
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:22.805
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:24.568
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:24.569
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:26.322
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:26.323
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:33.209
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:33.211
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:35.005
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:35.006
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:27:36.771
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:48.748
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:51.033
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:51.033
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:52.807
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:52.808
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:54.559
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:29:54.560
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:30:01.580
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:30:01.580
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:30:03.385
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:30:03.386
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:30:05.270
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:38.864
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:41.404
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:41.405
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:43.210
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:43.211
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:44.926
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:44.927
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:51.806
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:51.807
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:53.536
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:53.538
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:32:55.314
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:32.817
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:35.307
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:35.308
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:37.119
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '9': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:37.119
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:39.039
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '15': TestSuite: Scenario: positive testing - lockedout user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:39.040
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:45.887
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '21': TestSuite: Scenario: positive testing - performance glitch user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:45.888
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:47.759
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '28': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:47.760
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:37:49.608
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '35': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:43:34.515
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:43:37.003
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:43:37.004
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '10': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:43:38.808
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '10': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:43:38.808
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '17': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:43:40.591
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '17': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:44:10.760
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:44:13.302
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:44:31.930
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - problem user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 19:44:34.362
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - problem user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:25:36.342
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:25:38.864
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:25:56.496
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:25:58.820
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '3': TestSuite: Scenario: positive testing - standard user : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:33:13.233
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:33:15.329
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:33:15.340
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:36:25.771
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:36:28.255
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:11.098
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:13.577
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:13.577
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '11': TestSuite: | problem_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:15.378
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '11': TestSuite: | problem_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:15.379
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '17': TestSuite: | locked_out_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:17.073
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '17': TestSuite: | locked_out_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:17.075
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '23': TestSuite: | performance_glitch_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:39:23.963
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '23': TestSuite: | performance_glitch_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:31.426
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:33.818
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | standard_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:33.819
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '11': TestSuite: | problem_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:35.564
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '11': TestSuite: | problem_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:35.565
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '17': TestSuite: | locked_out_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:37.282
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '17': TestSuite: | locked_out_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:37.283
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '23': TestSuite: | performance_glitch_user | secret_sauce | : Not Started - Undefined (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:541)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:537)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:532)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2022-05-18 20:40:42.248
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '23': TestSuite: | performance_glitch_user | secret_sauce | : Completed - OK (5)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:522)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:517)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)

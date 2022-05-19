@@ -3,7 +3,7 @@ package packageTwo;
 public class TempConverter {
 
 	public static void main(String[] args) {
-		double farenhite = 90;
+		double farenhite = 50;
 		
 		double celsius = ((farenhite - 32)*5)/9;
 		System.out.println(celsius);
