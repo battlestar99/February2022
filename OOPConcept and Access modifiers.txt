@@ -1,0 +1,24 @@
+OOP concept
+
+Abstraction
+	To stop creating any object of that class
+Polymorphism
+	RunTime polymorphism - Method Over Riding - parent child
+	CompileTime polymorphism - Method Over Loading - same class
+Inheritance
+	parent child relation 
+Encapsulation
+	make evrything private
+
+
+
+Access Modifiers
+	public 
+	private
+	protected
+	default
+
+
+
+
+
