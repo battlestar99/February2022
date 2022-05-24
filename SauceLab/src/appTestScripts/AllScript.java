@@ -29,7 +29,7 @@ public class AllScript {
 		lp = new LoginPage(driver);
 	}
 	
-	@Test( groups = "smoke", priority = 1)
+	@Test( groups = {"smoke"}, priority = 1)
 	public void standardUserLogin() throws InterruptedException {
 		lp.usernameTextbox().sendKeys("standard_user");
 		lp.passwordTextbox().sendKeys("secret_sauce");

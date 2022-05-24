@@ -3821,3 +3821,156 @@ java.lang.Exception: Unexpected TestElement type for testId '23': TestSuite: | p
 	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:376)
 	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:375)
 	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+!SESSION 2022-05-23 17:50:17.562 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_291
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-05-23 17:50:31.266
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.testng.eclipse 4 0 2022-05-23 17:50:36.469
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-23 17:50:38.006
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Agile1Tech'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:52:02.034
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4741 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 4741 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:52:25.678
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4748 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 4748 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:53:09.647
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19050 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19050 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:53:42.696
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19075 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19075 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:53:56.267
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19107 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19107 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:56:21.805
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19277 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\AGILE1~1\AppData\Local\Temp\testng-eclipse--482823741\testng-customsuite.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19277 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\AGILE1~1\AppData\Local\Temp\testng-eclipse--482823741\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:56:50.558
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19297 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19297 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:57:46.893
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19342 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19342 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:57:55.973
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19364 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19364 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:58:21.703
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19387 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\AGILE1~1\AppData\Local\Temp\testng-eclipse-1287172797\testng-customsuite.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19387 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\AGILE1~1\AppData\Local\Temp\testng-eclipse-1287172797\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 17:58:33.513
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19402 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19402 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2022-05-23 17:59:08.187
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2022-05-23 17:59:08.188
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-05-23 17:59:10.126
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 18:49:23.567
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19956 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19956 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 18:49:48.587
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19962 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19962 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 18:50:26.072
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19969 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19969 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-23 18:50:45.982
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19973 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml
+java -ea -classpath C:\Users\Agile1Tech\Downloads\Windows-64-Bit-20220315T000609Z-001\Windows-64-Bit\eclipse-java-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\495\0\.cp\lib\testng-remote.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\bin:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-java-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\selenium-server-standalone-2.53.0.jar:C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\lib\testng-6.10.jar org.testng.remote.RemoteTestNG -serport 19973 -protocol json -d C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\test-output C:\Users\Agile1Tech\Desktop\Feb22-Workspace\February2022\SauceLab\sanity.xml

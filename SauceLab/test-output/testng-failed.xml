@@ -4,13 +4,13 @@
   <test name="Test(failed)" parallel="none">
     <groups>
       <run>
-        <include name="sanity"/>
+        <include name="smoke"/>
       </run>
     </groups>
     <classes>
       <class name="appTestScripts.AllScript">
         <methods>
-          <include name="problemUserLogin"/>
+          <include name="standardUserLogin"/>
         </methods>
       </class> <!-- appTestScripts.AllScript -->
     </classes>

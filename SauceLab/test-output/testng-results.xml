@@ -1,51 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22" started-at="2022-05-12T01:32:04Z" finished-at="2022-05-12T01:32:04Z">
+  <suite name="Suite" duration-ms="23" started-at="2022-05-23T22:50:46Z" finished-at="2022-05-23T22:50:46Z">
     <groups>
+      <group name="smoke">
+        <method signature="NewClass.testOne()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testOne" class="appTestScripts.NewClass"/>
+      </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="AllScript.problemUserLogin()[pri:2, instance:appTestScripts.AllScript@70be0a2b]" name="problemUserLogin" class="appTestScripts.AllScript"/>
+        <method signature="NewClass.testFour()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testFour" class="appTestScripts.NewClass"/>
+        <method signature="NewClass.testOne()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testOne" class="appTestScripts.NewClass"/>
+        <method signature="NewClass.testTwo()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testTwo" class="appTestScripts.NewClass"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="22" started-at="2022-05-12T01:32:04Z" finished-at="2022-05-12T01:32:04Z">
-      <class name="appTestScripts.AllScript">
-        <test-method status="FAIL" signature="problemUserLogin()[pri:2, instance:appTestScripts.AllScript@70be0a2b]" name="problemUserLogin" duration-ms="11" started-at="2022-05-11T21:32:04Z" finished-at="2022-05-11T21:32:04Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at appTestScripts.AllScript.problemUserLogin(AllScript.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test name="Test" duration-ms="23" started-at="2022-05-23T22:50:46Z" finished-at="2022-05-23T22:50:46Z">
+      <class name="appTestScripts.NewClass">
+        <test-method status="PASS" signature="testFour()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testFour" duration-ms="8" started-at="2022-05-23T18:50:46Z" finished-at="2022-05-23T18:50:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- problemUserLogin -->
-      </class> <!-- appTestScripts.AllScript -->
+        </test-method> <!-- testFour -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testOne" duration-ms="1" started-at="2022-05-23T18:50:46Z" finished-at="2022-05-23T18:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testTwo" duration-ms="0" started-at="2022-05-23T18:50:46Z" finished-at="2022-05-23T18:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- appTestScripts.NewClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
