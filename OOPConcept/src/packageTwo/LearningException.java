@@ -30,7 +30,7 @@ public class LearningException {
 		
 		AnotherMainRun amr = new AnotherMainRun();
 //		amr.a = 20;
-		System.out.println(amr.a);
+//		System.out.println(amr.a);
 		
 	}
 }

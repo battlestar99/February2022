@@ -7,7 +7,7 @@
         <methods>
           <include name="endTest"/>
           <include name="standardUserLogin"/>
-          <include name="setupTest"/>
+          <include name="setupDriver"/>
         </methods>
       </class> <!-- appTestScripts.StandardUser -->
     </classes>

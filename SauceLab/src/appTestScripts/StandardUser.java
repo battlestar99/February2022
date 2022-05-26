@@ -16,7 +16,7 @@ import appPages.LoginPage;
 
 
 
-public class StandardUser {
+public class StandardUser extends BasePage{
 	
 	WebDriver driver;
 	LoginPage lp;
@@ -28,18 +28,16 @@ public class StandardUser {
 	
 	// pre-requirment 
 	@BeforeTest
-	public void setupTest() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\Feb22-Workspace\\February2022\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+	public void setupDriver() {
+		driver = setupTest();
 		lp = new LoginPage(driver);
 	}
 	
-	@Parameters({"username", "password"})
+//	@Parameters({"username", "password"})
 	@Test(priority = 1)
 	public void standardUserLogin(String name, String passwrd) throws InterruptedException {
-		lp.usernameTextbox().sendKeys(name);
-		lp.passwordTextbox().sendKeys(passwrd);
+		lp.usernameTextbox().sendKeys("stanss");
+		lp.passwordTextbox().sendKeys("sajdfgkasg");
 		lp.signinButton().click();
 	}
 	

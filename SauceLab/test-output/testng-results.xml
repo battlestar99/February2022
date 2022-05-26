@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23" started-at="2022-05-23T22:50:46Z" finished-at="2022-05-23T22:50:46Z">
+  <suite name="Default suite" duration-ms="5160" started-at="2022-05-25T22:55:21Z" finished-at="2022-05-25T22:55:26Z">
     <groups>
-      <group name="smoke">
-        <method signature="NewClass.testOne()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testOne" class="appTestScripts.NewClass"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="NewClass.testFour()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testFour" class="appTestScripts.NewClass"/>
-        <method signature="NewClass.testOne()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testOne" class="appTestScripts.NewClass"/>
-        <method signature="NewClass.testTwo()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testTwo" class="appTestScripts.NewClass"/>
-      </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="23" started-at="2022-05-23T22:50:46Z" finished-at="2022-05-23T22:50:46Z">
-      <class name="appTestScripts.NewClass">
-        <test-method status="PASS" signature="testFour()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testFour" duration-ms="8" started-at="2022-05-23T18:50:46Z" finished-at="2022-05-23T18:50:46Z">
+    <test name="Default test" duration-ms="5160" started-at="2022-05-25T22:55:21Z" finished-at="2022-05-25T22:55:26Z">
+      <class name="appTestScripts.StandardUser">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:appTestScripts.StandardUser@23986957]" name="setupDriver" is-config="true" duration-ms="2135" started-at="2022-05-25T18:55:21Z" finished-at="2022-05-25T18:55:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testOne" duration-ms="1" started-at="2022-05-23T18:50:46Z" finished-at="2022-05-23T18:50:46Z">
+        </test-method> <!-- setupDriver -->
+        <test-method status="SKIP" signature="standardUserLogin(java.lang.String, java.lang.String)[pri:1, instance:appTestScripts.StandardUser@23986957]" name="standardUserLogin" duration-ms="0" started-at="2022-05-25T18:55:23Z" finished-at="2022-05-25T18:55:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method standardUserLogin requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method standardUserLogin requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:appTestScripts.NewClass@1df82230]" name="testTwo" duration-ms="0" started-at="2022-05-23T18:50:46Z" finished-at="2022-05-23T18:50:46Z">
+        </test-method> <!-- standardUserLogin -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:appTestScripts.StandardUser@23986957]" name="endTest" is-config="true" duration-ms="3009" started-at="2022-05-25T18:55:23Z" finished-at="2022-05-25T18:55:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- appTestScripts.NewClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- endTest -->
+      </class> <!-- appTestScripts.StandardUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
